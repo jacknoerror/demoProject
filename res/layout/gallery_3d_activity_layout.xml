@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <com.jack.ui.coverflow.GalleryFlow 
+        android:id="@+id/gallery_flow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        />
+    <com.jack.ui.coverflow.CoverFlow
+        android:id="@+id/gallery_flow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+        
+    </com.jack.ui.coverflow.CoverFlow>
+
+</LinearLayout>
